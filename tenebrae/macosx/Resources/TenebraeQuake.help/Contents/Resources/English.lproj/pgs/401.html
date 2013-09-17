@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Setting command line parameters with AppleScript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords" content="AppleScript"/>
+<meta name="description" content="Learn about the AppleScript support of TenebraeQuake."/>
+<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body id="apple-pd">
+
+<!--page head-->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../../Shared/xicnquake.png" alt="TenebraeQuake Icon" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Setting command line parameters with AppleScript</h1>
+</div>
+</div>
+<!--closes page header-->
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+You can set the command line parameters with the &quot;run&quot; command. The syntax for the &quot;run&quot; command is as follows:</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+
+<div id="taskbox">
+<div id="taskbox1">
+         <div class="shadow">
+                    <div id="taskframe1">
+                              <div class="taskcontent">
+run [params String]<br><br>
+
+                                 </div><!--closes taskcontent-->
+                      </div><!--closes taskframe1-->
+           </div><!--closes shadow-->
+</div><!--closes taskbox1-->
+</div><!--closes taskbox -->
+
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Using only the command &quot;run&quot; will simply start the TenebraeQuake application. The following example will tell the appication &quot;TenebraeQuake&quot; to start without any parameters:</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+
+<div id="taskbox">
+<div id="taskbox1">
+         <div class="shadow">
+                    <div id="taskframe1">
+                              <div class="taskcontent">
+tell application &quot;TenebraeQuake&quot;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;run<br>
+end tell<br><br>
+                                 </div><!--closes taskcontent-->
+                      </div><!--closes taskframe1-->
+           </div><!--closes shadow-->
+</div><!--closes taskbox1-->
+</div><!--closes taskbox -->
+
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Using the command &quot;run params String&quot; will start the TenebraeQuake application with the command line parameters stored in &quot;String&quot;. The following example will tell the application &quot;TenebraeQuake&quot; to start with the command line parameters &quot;-hipnotic&quot;.</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+
+<div id="taskbox">
+<div id="taskbox1">
+         <div class="shadow">
+                    <div id="taskframe1">
+                              <div class="taskcontent">
+            tell application &quot;TenebraeQuake&quot;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;run params &quot;-hipnotic&quot;<br>
+            end tell<br><br>
+                                 </div><!--closes taskcontent-->
+                      </div><!--closes taskframe1-->
+           </div><!--closes shadow-->
+</div><!--closes taskbox1-->
+</div><!--closes taskbox -->
+
+
+<div id="outrobox">
+<div class="outroprimtext">
+<p class="outroprimtextlongtext">
+</p>
+</div><!--closes outroprimtext-->
+</div><!--closes outrobox -->
+<div id="rule">
+<hr />
+</div><!-- closes rule-->
+<div id="linkinternalbox">
+<h3>Related Topics</h3>
+<p class="linkinternal"><a href="402.html">Executing TenebraeQuake console commands with AppleScript <span class="linkarrow"></span></a></p>
+
+</div><!--closes linkinternalbox-->
+</body>
+</html>

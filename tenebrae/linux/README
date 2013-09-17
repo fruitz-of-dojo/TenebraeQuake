@@ -1,0 +1,35 @@
+
+This part of the tenebrae source tree deals with linux build. This file poorly documents the build procedure, so have a look in tenebrae forum for tips and work-around on this topic.
+
+
+necessary stuff :
+
+- Xfree 4.2
+- nvidia kernel driver (the only one to provide the necessary OpenGL support).
+- nvidia glx driver 
+- mesa developpment stuff
+
+
+This is a quite simple build procedure :
+
+ln -s Makefile.i386linux Makefile
+make 
+
+By default, the program will consider /usr/local/share/games/quake as the directory where the id1 and tenebrae directories are to be found. You can change this by adding MASTER_DIR=<quake_dir> to the make command.
+
+If everything goes right, you'll find the program in the debugi386.glibc/bin/ directory named tenebrae.run. Otherwise, you certainly got a lot of compilation errors dumped on your screen, so please, if it's an _official_ release, have a look at bug reports, forums, and if you don't find an answer, report the bug on the website. 
+
+
+
+**** distributions specific stuff ****
+
+- Gentoo : 
+
+from their forum :
+
+[...] I'd just like to remind you that I -had- to do "opengl-update xfree" for tenebrae to even start to compile and I couldn't run tenebrae until I had restarted X11 *AFTER* switching back to "opengl-update nvidia". Not sure if this applies to all cards or just nvidia. [...]
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+
+
+This part of the source deals with building the sdl version of tenebrae.
+
+
+*** the tools ***
+
+You'll find here the files to use with automake/autoconf buildtools. the required versions are :
+
+automake >= 1.6
+autoconf >= 2.50
+
+It is certainly possible to build tenebrae.sdl on non UNIX systems, but you'll have to figure it out by yourself :) 
+
+*** the procedure ***
+
+
+1) run './autogen.sh'
+
+this step is necessary if you got the source from cvs. This script will create the configure script and some Makefile parts.
+
+2) run './configure'
+
+It will try to analyse your system for compatibility with the source. If something is missing, this script might pinpoint it. 
+Besides, this script accepts several parameters. You can have a look at the list with the '--help' parameter.
+
+The added ones are :
+
+	--enable-userpref=<yes|no>
+
+Tenebrae is built by default with user preference directory, which basically means that '$HOME/.quake' is the first place where the game will seek game data.
+
+	GAMEDIR=<gamedir>
+
+This one defines the directory where the program may find the game data (that is : id1 and tenebrae directories). The default value is '${datadir}/games/quake' where 'datadir' is another option of the configure script. 
+
+	--enable-asm=<yes|no>
+
+This one is currently not supported and so disabled by default. It allows the use of x86 assembly code.
+
+3) run 'make'
+
+this is the real build part of the pocedure. But you know about this, don't you ?
+
+4) install tenebrae data 

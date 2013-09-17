@@ -1,0 +1,40 @@
+
+ === TENEBRAE TEAM ===
+
+Charles Hollemeersh	<c_hollemeersch(at)hotmail.com>
+
+ - Win32 Tenebrae Mod
+
+Jarno Paananen		<jpaana(at)users.sourceforge.net>
+
+ - Radeon support
+
+Axel "awe" Wefers	<awe(at)fruitz-of-dojo.de>
+
+ - Mac OSX port
+
+Adam Jones 		<eradicator@modsrus.com>
+
+ - Miscellaneous code fixes and improvements
+
+Didier Cassirame	<faded(at)free.fr>
+
+ - OpenGL through SDL hack
+ - Linux GLX code hack
+
+ === original code ===
+
+Id Software		<http://www.idsoftware.com>
+
+ - original quake code 
+
+Sam Lantinga 		<slouken(at)devolution.com>
+
+ - initial port of quake to SDL
+
+ === contributions ===
+
+Fabian Bieler 		<der.fabe(at)gmx.net>
+
+ - Linux GLX code patch
+

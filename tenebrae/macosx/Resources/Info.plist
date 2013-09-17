@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>****</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>TenebraeQuake</string>
+	<key>CFBundleGetInfoString</key>
+	<string>TenebraeQuake 1.1.1; Copyright 2002-2012 Fruitz Of Dojo</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>TenebraeQuake.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>com.fruitz-of-dojo.tenebraequake.help</string>
+	<key>CFBundleIconFile</key>
+	<string>Quake</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.fruitz-of-dojo.tenebraequake</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TenebraeQuake</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.1</string>
+	<key>CFBundleSignature</key>
+	<string>TQua</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.action-games</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.6.0</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>TenebraeQuake</string>
+	<key>NSPrincipalClass</key>
+	<string>QApplication</string>
+</dict>
+</plist>

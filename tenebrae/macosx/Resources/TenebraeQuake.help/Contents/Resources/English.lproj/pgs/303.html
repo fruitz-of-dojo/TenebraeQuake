@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Applying &quot;vis&quot; patches</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords" content="mods, mission packs"/>
+<meta name="description" content="Learn how to apply VIS patches to your mission packs or mods."/>
+<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body id="apple-pd">
+
+<!--page head-->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../../Shared/xicnquake.png" alt="TenebraeQuake Icon" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Applying &quot;vis&quot; patches</h1>
+</div>
+</div>
+<!--closes page header-->
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+You can apply &quot;vis&quot; patches with the command line tool &quot;vispatch&quot;.</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+<div id="taskbox">
+
+<div id="taskbox1">
+         <div class="shadow">
+                    <div id="taskframe1">
+                              <div class="taskcontent">
+<h2>Please follow this steps to apply &quot;vis&quot; patches:</h2>
+<ol id="tasklistnumbered">
+<li>
+<p class="numberparagraph">
+Backup the folder of the desired mission pack.</p>
+</li>
+<li>
+<p class="numberparagraph">
+Copy the application &quot;vispatch&quot; and the patch file to the mission pack folder. Let's say we want to patch the &quot;Hipnotic&quot; mission pack: We copy &quot;vispatch&quot; and &quot;hipnotic.vis&quot; to the &quot;hipnotic&quot; folder.</p>
+</li>
+<li>
+<p class="numberparagraph">
+Open &quot;Terminal&quot;.</p>
+</li>
+<li>
+<p class="numberparagraph">
+Change to the mission pack folder at &quot;Terminal&quot;. Back to our example: Enter &quot;cd &quot; (without the quotes, but with the space after &quot;cd&quot;) at the Terminal prompt. Next drag the &quot;hipnotic&quot; folder onto the Terminal window. Hit &quot;return&quot;.</p>
+</li>
+<li>
+<p class="numberparagraph">
+Start the patch process: Enter &quot;./vispatch -data hipnotic.vis&quot; (without the quotes) at the Terminal prompt and hit again &quot;return&quot;. The patch process should start if you did everything right. Wait until the usual Terminal prompt is back. You've patched your first mission pack.</p>
+</li>
+<li>
+<p class="numberparagraph">
+Finally to enable water transparency in TenebraeQuake you'll have to change the variable &quot;r_wateralpha&quot; to a value less than &quot;1.0&quot;. Just start TenebraeQuake, go to the Quake console and enter for example &quot;r_wateralpha 0.6&quot;. Keep in mind that you'll have to add &quot;r_wateralpha&quot; to your &quot;autoexec.cfg&quot; file if you want make the value of &quot;r_wateralpha&quot; permanet.</p>
+</li>
+
+</ol>
+
+                                 </div><!--closes taskcontent-->
+                      </div><!--closes taskframe1-->
+           </div><!--closes shadow-->
+</div><!--closes taskbox1-->
+</div><!--closes taskbox -->
+<div id="outrobox">
+<div class="outroprimtext">
+<p class="outroprimtextlongtext">
+</p>
+</div><!--closes outroprimtext-->
+</div><!--closes outrobox -->
+<div id="rule">
+<hr />
+</div><!-- closes rule-->
+<div id="linkinternalbox">
+<h3>Related Topics</h3>
+<p class="linkinternal"><a href="301.html">About &quot;vispatch&quot; <span class="linkarrow"></span></a></p>
+<p class="linkinternal"><a href="302.html">Obtaining &quot;vis&quot; patches <span class="linkarrow"></span></a></p>
+
+</div><!--closes linkinternalbox-->
+</body>
+</html>
