@@ -66,7 +66,8 @@ static FDHIDDeviceDesc  sFDHIDMouseMap[] =
 
 FDHIDUsageToDevice gFDHIDMouseUsageMap[] =
 {
-    { kHIDPage_GenericDesktop, kHIDUsage_GD_Mouse, &(sFDHIDMouseMap[0]), FD_SIZE_OF_ARRAY (sFDHIDMouseMap), 0 }
+    { kHIDPage_GenericDesktop,  kHIDUsage_GD_Mouse,     &(sFDHIDMouseMap[0]), FD_SIZE_OF_ARRAY (sFDHIDMouseMap), 0 },
+    { kHIDPage_Consumer,        kHIDUsage_GD_Pointer,   &(sFDHIDMouseMap[0]), FD_SIZE_OF_ARRAY (sFDHIDMouseMap), 0 }
 };
 
 //----------------------------------------------------------------------------------------------------------------------------
