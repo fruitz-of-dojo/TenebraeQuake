@@ -1,6 +1,6 @@
 /* Localized versions of Info.plist keys */
 
 CFBundleName = "TenebraeQuake";
-CFBundleShortVersionString = "1.1.1";
-CFBundleGetInfoString = "TenebraeQuake version 1.1.1, Copyright 2002-2012 Fruitz Of Dojo.";
-NSHumanReadableCopyright = "Copyright 2002-2012 Fruitz Of Dojo.";
+CFBundleShortVersionString = "1.1.2";
+CFBundleGetInfoString = "TenebraeQuake version 1.1.2, Copyright 2002-2013 Fruitz Of Dojo.";
+NSHumanReadableCopyright = "Copyright 2002-2013 Fruitz Of Dojo.";
