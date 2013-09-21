@@ -16,17 +16,18 @@
 
 //----------------------------------------------------------------------------------------------------------------------------
 
-static NSArray*                         sDisplays   = nil;
-static CGDisplayFadeReservationToken    sFadeToken  = kCGDisplayFadeReservationInvalidToken;
-static const NSUInteger                 skFadeSteps = 100;
+static NSArray*                         sDisplays           = nil;
+static CGDisplayFadeReservationToken    sFadeToken          = kCGDisplayFadeReservationInvalidToken;
+static const NSUInteger                 skFadeSteps         = 100;
+static const NSUInteger                 skGammaTableSize    = 1024;
 
 //----------------------------------------------------------------------------------------------------------------------------
 
 typedef struct
 {
-    CGGammaValue		mRed[256];
-    CGGammaValue		mGreen[256];
-    CGGammaValue		mBlue[256];
+    CGGammaValue		mRed[skGammaTableSize];
+    CGGammaValue		mGreen[skGammaTableSize];
+    CGGammaValue		mBlue[skGammaTableSize];
     uint32_t            mCount;
 } GammaTable;
 
